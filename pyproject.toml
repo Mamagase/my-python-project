@@ -7,7 +7,9 @@ authors = [
     { name = "mamagase", email = "gn.mamagase@gmail.com" }
 ]
 requires-python = ">=3.15"
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 my-python-project = "my_python_project:main"
